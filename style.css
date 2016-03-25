@@ -1,11 +1,13 @@
-
 .menu ul li:hover{
 background-color:#B4DDFF;
 color:#FFF;
 transform: scale(1.2);
-
-
 }
+
+a{
+box-sizing: content-box;
+}
+
 .logo{
 background:url('http://www.ofmonstersandmen.com/wp-content/themes/ofmonsterandmen_2015theme/img/omam-logo-black.svg') no-repeat center;
 background-size: 90% 55px ;
@@ -18,25 +20,25 @@ left:0;
 padding-left:3%;
 transition: all .15s ease-in-out;
 background-color:#A9C9FF;
-
 }
+
 .logo:hover{
 transform: scale(1.05);
 padding-left:3.5%;
 padding-top:1%;
-
 }
 
 .menu{
 width:100%;
 height: 60px;
 background-color:#A9C9FF;
-position: fixed;
+position:fixed;
 top:0;
 left:0;
 opacity:0.95;
-
+z-index:1000;
 }
+
 .menu ul{
 text-align:right;
 padding-right:10%;
@@ -56,19 +58,128 @@ font-size:25px;
 font-family: 'Dosis', sans-serif;
 transition: all .1s ease-in-out;
 }
+
 main{
 clear:float;
 }
+
 .pics{
 margin:0 auto;
 padding-top:60px;
 border:none;
-width:75%;
+width:100%;
 height:30%;
 content:url('http://www.tixr.com/blog/wp-content/uploads/2015/06/of-monsters-and-men-4f590c539bde2.jpg');
-
-
 }
+
 body{
-background-color:#E8E8E5;
+margin:0px;
+padding:0px;
 }
+
+.band {
+padding-left:5%;
+padding-right:5%;
+padding-top:2%;
+}
+
+footer{
+margin-top:50%;
+}
+
+.membros{
+padding-top:3%;
+color:#000;
+font-size:200%;
+font-family: 'Dosis', sans-serif;
+text-align:center;
+width:50%;
+margin-left:25%;
+height:2%;
+}
+
+.nanna{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/nanna.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+float:left;
+}
+
+.nanna:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/nanna2.jpg);
+transform:scale(1.1);
+}
+
+.rag{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/rag.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+margin-left:8%;
+float:left;
+}
+
+.rag:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/rag2.jpg);
+transform:scale(1.1);
+}
+
+.bry{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/bry.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+margin-left:72%;
+margin-right:10%
+}
+
+.bry:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/bry2.jpg);
+transform:scale(1.1);
+}
+
+.arn{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/arn.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+float:left;
+margin-top:5%;
+}
+
+.arn:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/arn2.jpg);
+transform:scale(1.1);
+}
+
+.ragn{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/ragn.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+margin-left:8%;
+float:left;
+margin-top:5%;
+}
+
+.ragn:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/ragn2.jpg);
+transform:scale(1.1);
+}
+
+.kris{
+width:28%;
+content:url(C:/Users/bunny_000/Documents/html/omam/kris.jpg);
+border-radius:50%;
+transition:all .15s ease-in-out;
+margin-left:72%;
+margin-right:10%;
+margin-top:5%;
+}
+
+.kris:hover{
+content:url(C:/Users/bunny_000/Documents/html/omam/kris2.jpg);
+transform:scale(1.1);
+}
+
